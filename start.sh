@@ -8,9 +8,9 @@ fi
 echo "eula=true" > eula.txt
 
 cat > server.properties <<EOF
-online-mode=true
-spawn-protection=0
-max-players=10
+online-mode=false
+spawn-protection=32
+max-players=15
 view-distance=5
 simulation-distance=3
 motd=LS Server
